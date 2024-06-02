@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package workload;
+
+message WorkloadRequest {
+    string task = 1;
+    string data = 2;
+}
+
+message WorkloadResponse {
+    string result = 1;
+    string error = 2;
+}
